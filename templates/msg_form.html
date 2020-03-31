@@ -1,23 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="/static/css/style.css">
-</head>
-<body>
-<div class="login">
-    <h1>{{ message }}</h1>
-    <form action="/form/" method="POST">
-        <ul>
-            <li><span>name：</span><input type="text" name="name"></li>
-            <li><span>email：</span><input type="text" name="email"></li>
-            <li><span>address：</span><input type="text" name="address"></li>
-            <li><span>message：</span><input type="text" name="message"></li>
-            <li><input type="submit" value="提交"></li>
-        </ul>
-        {% csrf_token %}
-    </form>
-</div>
-</body>
-</html>
+{% extends 'layout/layout.html' %}
+{% block wrapper %}
+    <div class="layui-container">
+        <div class="login">
+            <h1>{{ message }}</h1>
+            <form action="/form/" method="POST">
+                <ul>
+                    <li><span>name：</span><input type="text" name="name"></li>
+                    <li><span>email：</span><input type="text" name="email"></li>
+                    <li><span>address：</span><input type="text" name="address"></li>
+                    <li><span>message：</span><input type="text" name="message"></li>
+                    <li><input type="submit" value="提交"></li>
+                </ul>
+                {% csrf_token %}
+            </form>
+        </div>
+    </div>
+{% endblock %}

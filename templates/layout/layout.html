@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="keywords" content="{{ key }}"/>
+    <meta name="description" content="{{ desc }}"/>
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <meta name="renderer" content="webkit">
+    <title>{{ title }}</title>
+
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="/static/library/resetcss/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/library/resetcss/minireset.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/library/layui/css/layui.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/layout.css"/>
+    {% block style %}{% endblock %}
+    <link rel="stylesheet" type="text/css" href="/static/css/rests.css"/>
+
+    <!-- 让IE8/9支持媒体查询，从而兼容栅格 -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+    <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<div class="wrapper">
+    {% block wrapper %}{% endblock %}
+</div>
+
+<!-- js -->
+<script src="/static/library/layui/layui.js"></script>
+<script src="/static/js/common.js"></script>
+<script src="/static/js/layout.js"></script>
+{% block script %}{% endblock %}
+<script>
+    layui.use(["layer", "element"], function () {
+        var layer = layui.layer,
+            element = layui.element,
+            $ = layui.$;
+    })
+</script>
+</body>
+
+</html>

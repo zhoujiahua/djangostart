@@ -6,6 +6,11 @@ from datetime import datetime
 from .models import UserMessage
 
 
+# Home page
+def home_page(request):
+    return render(request, 'views/index.html')
+
+
 # Create your views here.
 def get_form(request):
     # 查询数据

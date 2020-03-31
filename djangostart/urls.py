@@ -15,9 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from message.views import home_page
 from message.views import get_form
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', home_page, name='home'),
     path('form/', get_form, name='go_form')
 ]

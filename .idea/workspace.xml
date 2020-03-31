@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0a0d5eb-93f7-4db2-a3a9-1f5b431f7042" name="Default Changelist" comment="" />
+    <list default="true" id="b0a0d5eb-93f7-4db2-a3a9-1f5b431f7042" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/message/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/message/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangostart/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangostart/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/msg_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/msg_form.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,12 +34,19 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Zqw4YWJVXDR9UVjjQ1c8Ik1bcI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -43,11 +56,17 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/views" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspace\Python\djangostart\templates\views" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workspace\Python\djangostart\templates\layout" />
+      <recent name="D:\Workspace\Python\djangostart\templates\admin" />
       <recent name="D:\Workspace\Python\djangostart\apps" />
       <recent name="D:\Workspace\Python\djangostart" />
     </key>
@@ -163,6 +182,7 @@
       <workItem from="1585586719971" duration="954000" />
       <workItem from="1585587685471" duration="2633000" />
       <workItem from="1585663333033" duration="129000" />
+      <workItem from="1585666925908" duration="2272000" />
     </task>
     <servers />
   </component>
@@ -174,22 +194,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1585663457478" />
-    <state width="1867" height="272" key="GridCell.Tab.0.bottom" timestamp="1585590347939">
+    <state width="1867" height="272" key="GridCell.Tab.0.bottom" timestamp="1585667941151">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1585590347939" />
-    <state width="1867" height="272" key="GridCell.Tab.0.center" timestamp="1585590347939">
+    <state width="1867" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1585667941151" />
+    <state width="1867" height="272" key="GridCell.Tab.0.center" timestamp="1585667941151">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="272" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1585590347939" />
-    <state width="1867" height="272" key="GridCell.Tab.0.left" timestamp="1585590347939">
+    <state width="1867" height="272" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1585667941151" />
+    <state width="1867" height="272" key="GridCell.Tab.0.left" timestamp="1585667941150">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="272" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1585590347939" />
-    <state width="1867" height="272" key="GridCell.Tab.0.right" timestamp="1585590347939">
+    <state width="1867" height="272" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1585667941150" />
+    <state width="1867" height="272" key="GridCell.Tab.0.right" timestamp="1585667941151">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1867" height="272" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1585590347939" />
+    <state width="1867" height="272" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1585667941151" />
     <state width="1867" height="337" key="GridCell.Tab.1.bottom" timestamp="1585587531276">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
